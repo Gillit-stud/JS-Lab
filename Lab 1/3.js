@@ -1,6 +1,6 @@
-const array = [1, true, 278, 42, 69, 21, "Craunger", false, "Oleksandr", 9.1, "ЛАДГЕ", -4];
+const gdf = [1, true, 278, 42, 69, 21, "Craunger", false, "Oleksandr", 9.1, "ЛАДГЕ", -4];
 const counters = {};
-for (const item of array) {
+for (const item of gdf) {
     if (typeof item === "string") {
         counters.string === undefined ? counters.string = 1 : counters.string += 1;
     } else if (typeof item === "number") {
